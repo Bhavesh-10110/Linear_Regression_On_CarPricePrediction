@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load data
-data = pd.read_csv(r'C:\Clg\TekWorks\Datasets\mercedes_benz_listings_cleaned.csv')
+data = pd.read_csv("mercedes_benz_listings_cleaned.csv")
 df = pd.DataFrame(data)
 
 # Use only numeric features for a stable model
